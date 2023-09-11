@@ -1,8 +1,7 @@
 import React from "react"; 
 import { Home } from "./Home";
 import {Student} from "./Student"
-import {Contact} from "./Contact"
-import { User } from "./User";
+import {Contact} from "./Contact";
 import {BrowserRouter,Link, Route, Routes} from 'react-router-dom';
 function Navbar(){
     return(
@@ -19,7 +18,7 @@ function Navbar(){
             <Route path='/student' element={<Student/>} />
             <Route path='/home' element={<Home/>} />
             <Route path='/contact' element={<Contact/>} />
-            <Route path='/user/:id' element={<User/>} />
+            
             
 
 
@@ -30,4 +29,4 @@ function Navbar(){
         </>
     )
 }
-export default Navbar;
+export default Navbar;sss
